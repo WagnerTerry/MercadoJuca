@@ -5,7 +5,7 @@ function App() {
   const [numero, setNumero] = useState()
 
   function incrementar(){
-    console.log("funcao adicionar")
+    console.log("funcao adicionar!")
     setNumero(numero + 1)
   }
 
