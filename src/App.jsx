@@ -1,7 +1,12 @@
+import Cabecalho from './components/Cabecalho'
+
 function App() {
   return (
     <div className="home">
-      <h1>Hello world</h1>
+      <Cabecalho tema="home" />
+      <br />
+      ------------------------------
+      <Cabecalho tema="cadastro"/>
     </div>
   )
 }
