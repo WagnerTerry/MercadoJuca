@@ -1,6 +1,8 @@
 import {useState} from 'react'
 import Cabecalho from './components/Cabecalho'
 
+import './App.scss'
+
 function App() {
   const [numero, setNumero] = useState()
 
