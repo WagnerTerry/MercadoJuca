@@ -6,15 +6,15 @@ const Footer = () => {
     <footer>
       <div className='links-de-servico'>
           <div>
-          <p>Contato</p>
-          <p>Termos de Serviço</p></div>
-          
+          <a href="#"><p>Contato</p></a>
+          <a href=""><p>Termos de Serviço</p></a>
+          </div>          
 
         </div>
         <div className='links-de-gerenciamento'>
           <div>
-              <p>Política de privacidade</p>
-              <p>Cancelamento, troca e reembolso</p>
+             <a href="#"><p>Política de privacidade</p></a> 
+              <a href="#"><p>Cancelamento, troca e reembolso</p></a>
           </div>
 
           <div>
@@ -31,13 +31,13 @@ const Footer = () => {
         
        <div id="imagens-do-footer-home">
           <div id='redes-sociais'>
-              <img  src='../src/assets/Instagram.png '/>
-              <img  src='../src/assets/Facebook.png '/>
+              <a href="#"><img  src='../src/assets/Instagram.png '/></a>
+              <a href="#"><img  src='../src/assets/Facebook.png '/></a>
           </div>
           <div id='pagamentos'>
-          <img  src='../src/assets/MastercardM.png '/>
-            <img  src='../src/assets/PayPalP.png '/>
-            <img  src='../src/assets/Visa.png '/>
+             <a href="#"><img  src='../src/assets/MastercardM.png '/></a>
+             <a href="#"><img  src='../src/assets/PayPalP.png '/></a>
+             <a href="#"><img  src='../src/assets/Visa.png '/></a>
         </div>
           
       </div>
