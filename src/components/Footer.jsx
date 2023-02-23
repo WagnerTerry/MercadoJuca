@@ -9,7 +9,7 @@ const Footer = () => {
           <p>Contato</p>
           <p>Termos de Serviço</p></div>
           
-          <p>Newslatter</p>
+
         </div>
         <div className='links-de-gerenciamento'>
           <div>
@@ -18,6 +18,7 @@ const Footer = () => {
           </div>
 
           <div>
+          <p>Newslatter</p>
               <input placeholder='Digite seu melhor email' className='input'  type="text" />
               <button className='button' >Inscrever</button>
           </div>
@@ -28,8 +29,8 @@ const Footer = () => {
           </div>
         <hr />
         
-       <div>
-          <div id='redes-Sociais'>
+       <div id="imagens-do-footer-home">
+          <div id='redes-sociais'>
               <img  src='../src/assets/Instagram.png '/>
               <img  src='../src/assets/Facebook.png '/>
           </div>
