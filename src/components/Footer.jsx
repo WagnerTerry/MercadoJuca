@@ -29,7 +29,7 @@ const Footer = () => {
           </div>
         <hr />
         
-       <div id="imagens-do-footer-home">
+       <div id="imagens">
           <div id='redes-sociais'>
               <a href="#"><img  src='../src/assets/Instagram.png '/></a>
               <a href="#"><img  src='../src/assets/Facebook.png '/></a>
