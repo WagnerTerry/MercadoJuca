@@ -1,4 +1,7 @@
 footer{
+   
+  @import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+
    .links-de-servico{
       display: flex;
       justify-content: space-between;
@@ -14,6 +17,9 @@ footer{
        flex-wrap: wrap;
      }
 
+     *{
+      font-family: 'Open Sans', sans-serif;
+     }
     button{
         background-color: #5CA720;
         color: #eee;
