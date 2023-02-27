@@ -1,10 +1,7 @@
-// variaveis sass
-$verde-botao: #5ca720; // cor de fundo do botão
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
 
-#cabecalho {
-  background-color: brown;
-
-  &:hover {
-    background-color: $verde-botao;
-  }
+.home{
+    background-color: #f9f9f9;
+    color: #161616;
+    font-family: 'Lato', sans-serif;
 }
