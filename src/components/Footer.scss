@@ -1,7 +1,7 @@
 footer{
-   
-   @import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
-
+   *{
+      font-family: 'Lato', sans-serif;
+   }   
    .links-de-servico{
       display: flex;
       justify-content: space-between;
@@ -16,10 +16,7 @@ footer{
        padding: 0 20px;
        flex-wrap: wrap;
      }
-
-     *{
-      font-family: 'Lato', sans-serif;
-     }
+    
     button{
         background-color: #5CA720;
         color: #eee;
