@@ -7,7 +7,7 @@ const Footer = () => {
       <div className='links-de-servico'>
           <div>
           <a href="#"><p>Contato</p></a>
-          <a href=""><p>Termos de Serviço</p></a>
+          <a href="#"><p>Termos de Serviço</p></a>
           </div>          
 
         </div>
