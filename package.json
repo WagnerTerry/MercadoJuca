@@ -1,22 +1,35 @@
 {
-  "name": "mercadojuca",
-  "private": true,
-  "version": "0.0.0",
-  "type": "module",
-  "scripts": {
-    "dev": "vite",
-    "build": "vite build",
-    "preview": "vite preview"
-  },
-  "dependencies": {
-    "react": "^18.2.0",
-    "react-dom": "^18.2.0"
-  },
-  "devDependencies": {
-    "@types/react": "^18.0.27",
-    "@types/react-dom": "^18.0.10",
-    "@vitejs/plugin-react": "^3.1.0",
-    "sass": "^1.58.1",
-    "vite": "^4.1.0"
-  }
+    "name": "mercadojuca",
+    "private": true,
+    "version": "0.0.0",
+    "type": "module",
+    "scripts": {
+        "dev": "vite",
+        "build": "vite build",
+        "preview": "vite preview"
+    },
+    "dependencies": {
+        "react": "^18.2.0",
+        "react-dom": "^18.2.0"
+    },
+    "devDependencies": {
+        "@types/react": "^18.0.27",
+        "@types/react-dom": "^18.0.10",
+        "@vitejs/plugin-react": "^3.1.0",
+        "babel-eslint": "^10.0.3",
+        "eslint": "^7.14.0",
+        "eslint-config-airbnb": "^18.0.1",
+        "eslint-config-prettier": "^6.4.0",
+        "eslint-plugin-import": "^2.18.2",
+        "eslint-plugin-jest": "^24.0.0",
+        "eslint-plugin-jsx-a11y": "^6.2.3",
+        "eslint-plugin-prettier": "^3.1.1",
+        "eslint-plugin-react": "^7.16.0",
+        "eslint-plugin-react-hooks": "^4.0.0",
+        "husky": "^4.2.5",
+        "lint-staged": "^10.1.7",
+        "prettier": "^1.18.2",
+        "sass": "^1.58.1",
+        "vite": "^4.1.0"
+    }
 }
