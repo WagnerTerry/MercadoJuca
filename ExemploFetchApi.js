@@ -13,6 +13,7 @@ function chamarApi() {
 
 // exemplo usando async / await - fecth api
 async function requestApi() {
-    let url = await (await fetch("https://swapi.dev/api/planets/3")).json()
-    console.log("funcionou", url)
+    let url = await fetch("https://swapi.dev/api/planets/3")
+    let data = await url.json()
+    console.log("funcionou", data)
 }
