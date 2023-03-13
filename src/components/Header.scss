@@ -1,0 +1,41 @@
+header {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+
+    .navbar {
+        height: 80px;
+        width: 100%;
+    
+        #estrela {
+            height: 16px;
+            width: 16px;
+            margin-left: 40px;
+            margin-top: 32px;
+        }
+    
+        p {
+            display: inline-block;
+            margin-left: 8px;
+            font-weight: 500;
+            font-size: 22px;
+        }
+    
+        .navbarIcons{
+            width: 150px;
+            display: flex;
+            justify-content: space-between;
+            float: right;
+            margin-right: 70px;
+            margin-top: 26px;
+
+            img {
+                cursor: pointer;
+            }
+        }
+    }
+
+    #banner {
+        width: 100%;
+    }
+}
