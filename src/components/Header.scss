@@ -1,4 +1,4 @@
-.header {
+header {
     box-sizing: border-box;
     margin: 0;
     padding: 0;
@@ -7,7 +7,7 @@
         height: 80px;
         width: 100%;
     
-        img#estrela {
+        #estrela {
             height: 16px;
             width: 16px;
             margin-left: 40px;
@@ -28,10 +28,14 @@
             float: right;
             margin-right: 70px;
             margin-top: 26px;
+
+            img {
+                cursor: pointer;
+            }
         }
     }
 
-    img#banner {
+    #banner {
         width: 100%;
     }
 }
